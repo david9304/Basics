@@ -39,3 +39,19 @@
     font-size: 1rem;
     cursor: pointer; 
 }
+@media (max-width: 768px){
+    .dropdown{
+        display: block;
+        width: 90%;
+        text-align: center;
+        position: relative;
+    }
+    .dropbtn{
+        background-color: darkgreen;
+        width: 90%;
+    }
+    .drop-content{
+        position: relative;
+    }
+   
+}
